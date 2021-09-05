@@ -1,0 +1,262 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 3, 2021, 8:21:33 PM
+    Author     : umaira
+*/
+*{
+   font-family: 'Kaisei Tokumin', serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    width:200px;
+    position: fixed;
+    height: 100%; 
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-secondary{
+  margin-left: 36%;
+  padding: .2em 2em;
+  background: #2e111a;
+  border-radius:12px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 350;
+  text-decoration: none;
+  width: 20%;
+  top: 31%;
+  left: 60%;
+  font-size: 20pt;
+  transform: translate(-50%, -50%);
+}
+
+
+.box .btn-secondary:hover{
+    background-color: grey;
+}
+
+
+
+
+//top design
+.container-pic {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  background: black;
+  color: #D1B9AC;
+  position: absolute;
+  text-align: center;
+  width: 35%;
+  top: 31%;
+  left: 55%;
+  font-size: 27pt;
+  transform: translate(-50%, -50%);
+}
+
+.centered .btn-secondary{
+
+  padding: .2em 2em;
+  background: #2e111a;
+  border-radius:12px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+
+.box {
+  transition: box-shadow .5s;
+  width: 420px;
+  height: 550px;
+  margin: 56px;
+  border-radius:12px;
+  border: 1px solid #ccc;
+  background: #f1f1f1;
+  float: left;
+}
+
+.box h1,h3{
+    text-align: center;
+}
+
+.box p{
+   text-align: justify;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 14; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.box .btn-secondary{
+  margin-left: 8%;
+  padding: .2em 2em;
+  background: #2e111a;
+  border-radius:12px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.box .box-desc{
+    height:65%;
+    width: 360px;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+.box .btn-secondary:hover{
+    background-color: grey;
+}
+
+.box:hover {
+  box-shadow: 0 0 20px rgba(33,33,33,.2); 
+}
+
+
+//form
+ form{
+  width: 22em;
+  margin-right: 21%;
+  margin-top: 10px;
+  background: #D1B9AC;
+  padding: 2em;
+  text-align: center;
+  font-size: 14pt;
+ }
+    
+input[type=text] {
+  width: 86%;
+  margin-left: 5%;
+  margin-bottom: 1em;
+  font-size: .9em;
+  font-weight: 300;
+  padding: .7em 1em;
+  color: #2e111a;
+  font-weight: 500;
+  background: whitesmoke;
+}
+
+textArea{
+  width: 86%;
+  height:auto;
+  margin-left:5%;
+  margin-bottom: 1em;
+  font-size: .9em;
+  font-weight: 300;
+  padding: .7em 1em;
+  text-align: justify;
+  color: #2e111a;
+  font-weight: 500;
+  background: whitesmoke;
+}
+
+form .h1{
+    text-align: center;
+}
+
+form .btn-secondary{
+  margin-left: 66%;
+  padding: .5em 5.3em;
+  background: #2e111a;
+  border-radius:12px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+form .btn-first{
+  margin-left: 66%;
+  padding: .3em 3em;
+  background: #2e111a;
+  border-radius:12px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+//view post box
+.box-2 {
+  transition: box-shadow .6s;
+  width: 530px;
+  height: 550px;
+  margin: 56px;
+  border-radius:12px;
+  border: 1px solid #ccc;
+  background: #f1f1f1;
+  float: left;
+}
+
+.box-2 h1,h3{
+    text-align: center;
+}
+
+.box-2 p{
+   text-align: justify;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.box-2 .btn-secondary{
+  margin-left: 75%;
+  margin-top: 5%;
+  padding: .2em 2em;
+  background: #2e111a;
+  border-radius:12px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.box-2 .box-desc{
+    height:65%;
+    width: 700px;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.box-2 .btn-secondary:hover{
+    background-color: grey;
+}
+
+.box-2:hover {
+  box-shadow: 0 0 20px rgba(33,33,33,.2); 
+}
+
+
+//footer
+.footer{
+    margin-left: 200%;
+}
